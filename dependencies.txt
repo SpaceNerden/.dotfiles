@@ -1,4 +1,5 @@
+yay
+swww
 cargo
 cargo/matugen
-swww
-yay
+

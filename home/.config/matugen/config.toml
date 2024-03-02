@@ -1,0 +1,17 @@
+[config]
+reload_apps = true
+set_wallpaper = true
+wallpaper_tool = 'Swww'
+swwww_options = [
+    "--transition-type",
+    "any",
+]
+
+[config.reload_apps_list]
+kitty = true
+gtk_theme = true
+
+
+[templates.hypr] # First way of adding template
+input_path = '~/.dotfiles/home/.config/hypr/hyprland.conf.template'
+output_path = '~/.dotfiles/home/.config/hypr/hyprland.conf'
