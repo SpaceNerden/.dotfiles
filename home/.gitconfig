@@ -1,0 +1,18 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = SpaceNerden
+	email = spacenerden@gmail.com
+	signingkey = EB8E23D71BCA0077!
+
+[include]
+        path = /home/spacenerden/.gitsecrets.conf	
+
+[commit]
+	gpgsign = true
+	template = /home/spacenerden/.gitmessage
+[core]
+	editor = nano
