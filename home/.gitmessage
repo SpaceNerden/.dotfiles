@@ -1,0 +1,33 @@
+# <type>([optional scope]): <subject/description>
+#
+# Type is one of the following:
+#    feat      - New features
+#    fix       - Fixes
+#    refractor - Restructuring code
+#    style     - Style changes (Formatting, indentation, whitespace, etc)
+#    test      - Changes to testing (Unit tests, integration tests, etc)
+#    docs      - Changes to documentation (includes comments)
+#    chore     - Updating dependencies or modifying .gitignore
+#    perf      - Changes that improves performance
+#    ci        - Changes to the CI workflow
+#    build     - Changes to the build process
+#    revert    - Reverts to a previous commit
+#
+# The subject must be short and consice. Required.
+#
+# Example: feat(webserver): add settings button to profile dropdown
+
+# Whitespace here:
+
+# [optional body]
+# The body should include past and current behavior, and other descriptions.
+# Example:
+# Change setting button location from profile page to home page profile dropdown
+
+# Whitespace here:
+
+# [optional footer]
+# Issue ID/URLs goes here, followed by breaking changes (in ALL CAPS), if any.
+# Example: 
+# Resolves #1234
+# BREAKING CHANGES: settings no longer in profile page
