@@ -13,5 +13,9 @@ gtk_theme = true
 
 
 [templates.hypr] # First way of adding template
-input_path = '~/.dotfiles/home/.config/hypr/hyprland.conf.template'
+input_path = '~/.dotfiles/templates/hyprland.conf.template'
 output_path = '~/.dotfiles/home/.config/hypr/hyprland.conf'
+
+[templates.firefox]
+input_path = '~/.dotfiles/templates/userChrome.css.template'
+input_path = '/home/spacenerden/.mozilla/firefox/d6vgmwhf.default-release/chrome/userChrome.css'
