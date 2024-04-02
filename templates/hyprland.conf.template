@@ -122,7 +122,7 @@ windowrulev2 = noborder, onworkspace:1
 # See https://wiki.hyprland.org/Configuring/Keywords/ for more
 $mainMod = SUPER
 
-
+bind = , Print, exec, exec grimblast --notify copy area
 bind = $mainMod, T, exec, matugen image ~/.dotfiles/wallpapers/$(ls ~/.dotfiles/wallpapers/ | shuf | head -1) -m "dark"
 # Example binds, see https://wiki.hyprland.org/Configuring/Binds/ for more
 bind = $mainMod, Q, exec, $terminal
